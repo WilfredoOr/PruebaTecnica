@@ -1,20 +1,18 @@
-##Prueba Técnica: Dashboard Financiero 
-####Frontend:
+# Prueba Técnica: Dashboard Financiero 
+## Frontend:
 
 Se utilizo React y Vite.
 
-####Backend:
+#### Backend:
 
 Utiliza Node.js y Express.
 
-####Pasos para ejecutarlo
+#### Pasos para ejecutarlo
 
-```http
+```bash
 git clone https://github.com/WilfredoOr/PruebaTecnica.git
 cd PruebaTecnica
 ```
 Ejecutar en el backend y frontend para instalar dependencias
 
-```http
-npm install
-```
+`npm install`
