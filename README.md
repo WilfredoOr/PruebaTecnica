@@ -1,9 +1,9 @@
 # Prueba Técnica: Dashboard Financiero 
-## Frontend:
+### Frontend:
 
 Se utilizo React y Vite.
 
-#### Backend:
+### Backend:
 
 Utiliza Node.js y Express.
 
@@ -15,4 +15,6 @@ cd PruebaTecnica
 ```
 Ejecutar en el backend y frontend para instalar dependencias
 
-`npm install`
+```bash
+npm install`
+```
