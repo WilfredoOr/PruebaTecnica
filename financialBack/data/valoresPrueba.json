@@ -1,0 +1,100 @@
+{
+  "financial_metrics": [
+    {
+      "month": "January",
+      "revenue": 15000,
+      "expenses": 8000,
+      "profit": 7000
+    },
+    {
+      "month": "February",
+      "revenue": 18000,
+      "expenses": 9000,
+      "profit": 9000
+    },
+    {
+      "month": "March",
+      "revenue": 20000,
+      "expenses": 10000,
+      "profit": 10000
+    },
+    {
+      "month": "April",
+      "revenue": 21000,
+      "expenses": 9500,
+      "profit": 11500
+    }
+  ],
+  "inventory": [
+    {
+      "product_id": "P001",
+      "product_name": "Item A",
+      "location": "Warehouse 1",
+      "stock_available": 150,
+      "min_stock": 50,
+      "max_stock": 200
+    },
+    {
+      "product_id": "P002",
+      "product_name": "Item B",
+      "location": "Warehouse 1",
+      "stock_available": 80,
+      "min_stock": 30,
+      "max_stock": 150
+    },
+    {
+      "product_id": "P003",
+      "product_name": "Item C",
+      "location": "Warehouse 2",
+      "stock_available": 200,
+      "min_stock": 100,
+      "max_stock": 300
+    },
+    {
+      "product_id": "P004",
+      "product_name": "Item D",
+      "location": "Warehouse 2",
+      "stock_available": 120,
+      "min_stock": 60,
+      "max_stock": 250
+    }
+  ],
+  "sales_data": [
+    {
+      "date": "2024-01-15",
+      "product_id": "P001",
+      "quantity_sold": 20,
+      "location": "Warehouse 1"
+    },
+    {
+      "date": "2024-02-10",
+      "product_id": "P002",
+      "quantity_sold": 10,
+      "location": "Warehouse 1"
+    },
+    {
+      "date": "2024-03-05",
+      "product_id": "P003",
+      "quantity_sold": 30,
+      "location": "Warehouse 2"
+    },
+    {
+      "date": "2024-04-20",
+      "product_id": "P004",
+      "quantity_sold": 25,
+      "location": "Warehouse 2"
+    }
+  ],
+  "locations": [
+    {
+      "location_id": "WH1",
+      "location_name": "Warehouse 1",
+      "address": "123 Main St, City A"
+    },
+    {
+      "location_id": "WH2",
+      "location_name": "Warehouse 2",
+      "address": "456 Industrial Rd, City B"
+    }
+  ]
+}

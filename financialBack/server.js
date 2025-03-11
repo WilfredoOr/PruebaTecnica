@@ -1,6 +1,7 @@
  
 const express = require("express");
 const app = express();
+const cors = require('cors');
 
 const routes = require("./routes/routes");
 
@@ -15,7 +16,7 @@ app.use("/api", routes);
 
 // Server
 app.listen(app.get("PORT"), () => {
-    console.log(`App listening on PORT ${app.get("PORT")}`);
+    console.log(`Puerto ${app.get("PORT")}`);
   });
 
 
